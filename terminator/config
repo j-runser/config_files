@@ -1,0 +1,26 @@
+[global_config]
+[keybindings]
+  close_term = <Primary>w
+  cycle_next = <Primary><Shift>Right
+  cycle_prev = <Primary><Shift>Left
+  move_tab_left = <Primary><Shift>Left
+  move_tab_right = <Primary><Shift>Right
+  new_tab = <Primary>Up
+  new_window = <Primary><Shift>Up
+  next_tab = <Primary>Right
+  prev_tab = <Primary>Left
+  split_horiz = <Primary><Shift>Up
+  split_vert = <Primary><Shift>Down
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+    cursor_shape = ibeam

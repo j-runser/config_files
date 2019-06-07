@@ -1,0 +1,10 @@
+{
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDelete": false,
+    "python.pythonPath": "/home/jrunser/anaconda2/envs/py-sklearn-agents/bin/python",
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        120
+    ],
+    "editor.largeFileOptimizations": false
+}
