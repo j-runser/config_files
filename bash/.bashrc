@@ -116,26 +116,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# Add anaconda to the my path so that the (base) does not show up on the
-# terminal but it will still work.
-# export PATH="/home/jrunser/anaconda2/bin:$PATH"  # commented out by conda initialize
-
-export CODE=$HOME/Documents/canvas-data
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/jrunser/anaconda2/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/jrunser/anaconda2/etc/profile.d/conda.sh" ]; then
-        . "/home/jrunser/anaconda2/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/jrunser/anaconda2/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
-conda deactivate
+# Activate fish terminal
 fish
